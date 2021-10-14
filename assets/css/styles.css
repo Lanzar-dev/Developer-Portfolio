@@ -68,9 +68,15 @@ nav {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav h1 {
-  color: var(--primary-color);
+nav .logo {
+  height: 1.8rem;
+  width: 2rem;
+  cursor: pointer;
 }
+
+/* nav h1 {
+  color: var(--primary-color);
+} */
 
 nav a {
   color: var(--primary-color);
@@ -122,13 +128,23 @@ nav ul li {
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
-.bio h1 {
+.bio h2 {
   margin-bottom: var(--bottom-margin);
 }
 
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+}
+
+.hero .bio h1 span {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.hero .bio .hand {
+  height: 25px;
+  width: 25px;
 }
 /* Hero section ends */
 
@@ -283,8 +299,9 @@ nav ul li {
   display: flex;
   flex-direction: column;
   position: fixed;
-  right: 1%;
-  bottom: 50%;
+  /* right: 1%; */
+  left: 1%;
+  bottom: 40%;
 }
 
 .socicon {
@@ -338,6 +355,13 @@ footer {
   nav {
     padding: 1.5rem 1rem;
   }
+
+  nav .logo {
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+  }
+
   nav ul {
     position: fixed;
     background-color: var(--bg-color);
@@ -376,6 +400,10 @@ footer {
   .bio {
     margin-top: -7rem;
     width: 20.5rem;
+  }
+
+  .hero .bio h1 span {
+    font-size: 1.8rem;
   }
 
   .more-about {
@@ -417,6 +445,10 @@ footer {
 
   .bio {
     width: 18.3rem;
+  }
+
+  .hero .bio h1 span {
+    font-size: 1.6rem;
   }
 
   .project-container {
