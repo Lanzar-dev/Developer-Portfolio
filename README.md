@@ -1,6 +1,6 @@
 # DEVELOPER PORTFOLIO
+
 Deployed site - https://toheebyekeen.netlify.app/
-A portfolio website template for campers
 
 ![jane-doe](jane-shot.png)
 
